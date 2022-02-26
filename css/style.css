@@ -1,0 +1,386 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input[type='text'], input[type='email'],
+input[type='tel'], textarea.myform-control {
+	width: 100%;
+	height: 32px;
+	margin: 5px 0 0 0;
+	padding: 0 5px; 
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+input[type='text']:focus, input[type='email']:focus,
+input[type='tel']:focus, textarea:focus {
+	-webkit-box-shadow: 0px 0px 5px 2px rgba(0,123,255,0.4);
+	-moz-box-shadow: 0px 0px 5px 2px rgba(0,123,255,0.4);
+	box-shadow: 0px 0px 5px 2px rgba(0,123,255,0.4);
+}
+
+@font-face {
+	font-family: "Book Antiqua", serif;
+	src: url('../fonts/antiqua.ttf');
+}
+
+/* body */
+body {
+	font-family: "Book Antiqua", serif;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
+}
+
+/* header */
+#header {
+	margin: 80px 0 0 0;
+	padding: 0 0 10px 0;
+}
+
+/* navbar-section */
+#navbar-section {
+	margin: 20px 0 0 0;
+}
+
+/* mynavbar-default */
+.mynavbar-default {
+	background-color: #fff;
+	border: none;
+}
+
+.mynavbar-default .navbar-toggle .icon-bar {
+	background-color: #fff
+}
+
+.mynavbar-default .navbar-toggle:focus, .mynavbar-default .navbar-toggle:hover
+	{
+	background-color: #6e4d3d;
+}
+
+/* mynavbar-header */
+.mynavbar-header {
+	background-color: #e49646;
+	border-radius: 5px
+}
+
+/* mynavbar */
+.mynavbar {
+	text-align: center;
+}
+
+.mynavbar .nav {
+	background-color: #fff;
+	float: none;
+}
+
+.mynavbar .nav li {
+	display: inline-block;
+	float: none;
+	margin: 0 20px;
+	vertical-align: middle;
+}
+
+.mynavbar .nav li a {
+	color: #434343;
+	font-style: italic;
+}
+
+.mynavbar .nav li a:hover {
+	background-color: #e59646;
+	color: #fff;
+}
+
+/* main-wrapper */
+.description {
+	text-align: justify;
+	font-size: 1.2rem;
+	color: #000
+}
+
+.myrow {
+	padding: 0 0 30px 0
+}
+
+#contacts {
+	text-align: center;
+	font-size: 1.6rem;
+	margin: 70px 0 0 0
+}
+
+.blue-color {
+	color: #007bff;
+}
+
+.red-color {
+	color: red;
+}
+
+.black-color {
+	color: #434343;
+}
+
+.txt-bold {
+	font-weight: bold;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+.txt-font-1 {
+	font-size: 2rem;
+}
+
+.txt-font-2 {
+	font-size: 1.5rem;
+}
+
+#frm-contact {
+	padding: 0 0 0 70px;
+}
+
+textarea.myform-control {
+	height: 130px
+}
+
+.mycol-form-label {
+	font-size: 1.1rem;
+}
+
+#mybtn {
+	font-size: 1.1rem;
+	margin: 0 auto;
+}
+
+.modal-title {
+	font-weight: bold;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a.flex-center label {
+	font-size: 1.3rem;
+}
+
+.selected img {
+	opacity:0.5;
+}
+
+#slider-thumbs {
+	padding-left: 22px;
+}
+
+.img-mini-slide {
+	width: 100px;
+	height: 60px;
+}
+
+/* footer */
+.footer {
+	margin: 50px 0 0 0;
+	padding: 0 0 30px 0;
+}
+
+.footer p {
+	text-align: center;
+	font-size: .8rem;
+	color: #8a8a8a;
+}
+
+.orange-color {
+	color: #e49646;
+}
+
+#social-medias {
+	padding: 0 0 10px 0
+}
+
+/* @media */
+@media screen and (max-width:767px) {
+	/* mybrand */
+	.mybrand {
+		padding: 0 17px;
+	}
+
+	/* mynavbar */
+	.mynavbar .nav li {
+		background-color: #e49646;
+		display: block;
+		margin: 0
+	}
+	.mynavbar .nav li a {
+		border-radius: 0;
+		display: block;
+		padding: 5px 0;
+		border-bottom: 1px solid #fff;
+		color: #fff;
+	}
+	.mynavbar .nav li a:hover {
+		background-color: #6e4d3d;
+		color: #fff;
+	}
+
+	/* main-wrapper */
+	#main-wrapper {
+		padding: 0 15px;
+	}
+
+	/* about */
+	.description {
+		font-size: 1rem;
+	}
+	#img-description-1 {
+		margin: 15px 0 0 0;
+	}
+	#img-description-2 {
+		margin: 0 0 16px 0;
+	}
+
+	/* portifolio */
+	.img-port {
+		padding: 0 0 10px 0;
+	}
+
+	.myrow {
+		padding: 0;
+	}
+
+	.view .mask {
+		height: 95%;
+	}
+
+	/* contact */
+	#contacts {
+		text-align: center;
+		font-size: .7rem;
+		margin: 0;
+		padding: 0 0 20px 0;
+	}
+	#frm-contact {
+		padding: 0;
+	}
+	.myform-control {
+		width: 100%;
+		height: 28px
+	}
+	.mycol-form-label {
+		font-size: .8rem;
+	}
+	.help-block ul li {
+		font-size: .8rem;
+	}
+	#mybtn {
+		font-size: .8rem;
+		margin: auto 0;
+		padding: 3px 6px
+	}
+	#form-btn {
+		text-align: center;
+	}
+
+	/* footer */
+	.footer p {
+		font-size: .7rem;
+		padding: 0 18px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+	/* mybrand */
+	.mybrand {
+		padding: 0 25px;
+	}
+
+	/* about */
+	.description {
+		font-size: 1rem;
+	}
+	#img-description-1 {
+		margin: 15px 0 0 0;
+	}
+	#img-description-2 {
+		margin: 0 0 16px 0;
+	}
+
+	/* portifolio */
+	.myrow {
+		padding: 0;
+	}
+	.img-port {
+		padding: 0 0 15px 0;
+	}
+
+	/* contact */
+	#contacts {
+		text-align: center;
+		font-size: 1.5rem;
+		margin: 0;
+		padding: 0 0 30px 0;
+	}
+	#frm-contact {
+		padding: 0 70px
+	}
+	.myform-control {
+		width: 100%;
+	}
+	.mycol-form-label {
+		font-size: 1.1rem;
+	}
+	#mybtn {
+		font-size: 1.1rem;
+		margin: auto 0;
+	}
+	#form-btn {
+		text-align: center;
+	}
+}

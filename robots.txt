@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /images/
+Sitemap: http://www.lumenstudiofotografia.com.br/sitemap.xml
