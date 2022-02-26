@@ -1,0 +1,15 @@
+{
+    "name": "PHPMailer",
+    "description": "Envio de contato dos clientes para o estudio de fotografia",
+    "authors": [
+        {
+            "name": "Leandro Lopes",
+            "email": "programador.leandrolopes@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.8",
+        "league/oauth2-google" : "2.x"
+    }
+
+  }
